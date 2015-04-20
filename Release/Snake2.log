@@ -1,0 +1,28 @@
+﻿Build started 1/21/2013 9:32:08 PM.
+     1>Project "C:\Users\AlexandruG\documents\visual studio 2012\Projects\Snake2\Snake2\Snake2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"D:\Game development\SFML\SFML-master\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>Game.cpp(20): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Game.cpp(50): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(54): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(57): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(126): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(122): warning C4101: 'zeroes' : unreferenced local variable
+     1>Game.cpp(245): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(251): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(255): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(314): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(321): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>Game.cpp(350): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>Game.cpp(351): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\AlexandruG\documents\visual studio 2012\Projects\Snake2\Release\Snake2.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Game development\SFML\SFML-master-build\lib\Release" "sfml-audio.lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\AlexandruG\documents\visual studio 2012\Projects\Snake2\Release\Snake2.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\AlexandruG\documents\visual studio 2012\Projects\Snake2\Release\Snake2.lib" /MACHINE:X86 /SAFESEH Release\Game.obj
+         Generating code
+         Finished generating code
+         Snake2.vcxproj -> C:\Users\AlexandruG\documents\visual studio 2012\Projects\Snake2\Release\Snake2.exe
+     1>Done Building Project "C:\Users\AlexandruG\documents\visual studio 2012\Projects\Snake2\Snake2\Snake2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.43
